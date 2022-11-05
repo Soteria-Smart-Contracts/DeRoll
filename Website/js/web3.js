@@ -26,4 +26,6 @@ async function CreateWorkContract(){
     Desc = document.getElementById('DescInput').innerText;
     Ether = document.getElementById('EtherInput').value;
 
+    require()
+
 }
