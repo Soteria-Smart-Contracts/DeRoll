@@ -11,6 +11,10 @@
   src: url('Prototype.ttf');
 }
 
+.label{
+  
+}
+
 h2{
   font: inherit;
   font-family: 'Prototype';
