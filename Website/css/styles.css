@@ -34,7 +34,8 @@ body{
 
   font-size: large;
   padding: 5px;
-  padding-left: ;
+  padding-left: 8px;
+  padding-right: 8px;
 
   border-radius: 25px;
 }
