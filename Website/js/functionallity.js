@@ -6,7 +6,7 @@ async function DisplayEmployeePage(){
     document.getElementById('Employee').style.display = "block";
 }
 
-async function DisplayEmployeePage(){
+async function Display(){
     document.getElementById('Proprietor').style.display = "none";
     document.getElementById('Employee').style.display = "block";
 }
