@@ -31,8 +31,8 @@ body{
   background-color: #4353FF;
   padding: 20px;
   min-height: 60vh;
-  min-width: ;
-  max-width: 35vw;
+  min-width: 30vw;
+  max-width: 30vw;
   align-items: center;
   text-align: center;
   border-radius: 35px;
