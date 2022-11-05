@@ -59,7 +59,7 @@ body{
 }
 
 .proprietor-header {
-  min-width: none;
+  min-width: 5vw;
   font-size: medium;
   font-weight: bold;
   padding: 5px;
