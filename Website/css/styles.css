@@ -11,7 +11,9 @@
   src: url('Prototype.ttf');
 }
 
-
+h1{
+  font-family: GoodFont;
+}
 
 body{
   background-color: #202120;
