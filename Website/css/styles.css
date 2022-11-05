@@ -11,9 +11,10 @@
   src: url('Prototype.ttf');
 }
 
-h1{
+h2{
   font: inherit;
   font-family: 'Prototype';
+  font-size: larger;
 }
 
 body{
