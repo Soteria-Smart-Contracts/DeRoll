@@ -7,6 +7,6 @@ contract DeRoll{
 
     struct WorkContract{
         address Employee;
-        a
+        
     }
 }
