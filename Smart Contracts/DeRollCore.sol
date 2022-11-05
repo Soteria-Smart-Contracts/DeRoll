@@ -16,9 +16,9 @@ contract DeRoll{
         uint256 EtherPayment;
     }
 
-
+    
     mapping(address => mapping(uint256 => WorkContract)) ProprietorContracts;
-    mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; //Use array?
+    mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; 
 
 
 
