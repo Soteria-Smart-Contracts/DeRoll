@@ -20,6 +20,6 @@ async function loginWithEth(){
 }
 
 async function CreateWorkContract(){
-    
+    eAlais = 
 
 }
