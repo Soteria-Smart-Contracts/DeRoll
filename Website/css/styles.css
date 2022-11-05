@@ -1,0 +1,327 @@
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#logo-image {
+  position: absolute;
+  width: 56px;
+  height: 57px;
+  left: 22px;
+  top: 18px;
+
+  background: url(../images/logo.png);
+}
+
+#logo-name {
+  position: absolute;
+  width: 166px;
+  height: 31px;
+  left: 87px;
+  top: 31px;
+
+  background: url(../images/name.png);
+}
+
+#proprietor-header {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 194px;
+  height: 37px;
+  left: 333px;
+  top: 25px;
+
+  background: #1b2eff;
+  border: 2.5px solid #000000;
+  border-radius: 30px;
+}
+
+#customer-header {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 194px;
+  height: 37px;
+  left: 553px;
+  top: 25px;
+
+  background: #4353ff;
+  border: 2.5px solid #000000;
+  border-radius: 30px;
+}
+
+#connect-wallet-btn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 194px;
+  height: 37px;
+  left: 861px;
+  top: 33px;
+
+  background: #000000;
+  border: 2.5px solid #ffffff;
+  border-radius: 30px;
+}
+
+#contract-box {
+  position: absolute;
+  width: 979px;
+  height: 475px;
+  left: 50px;
+  top: 117px;
+
+  background: #4353ff;
+  border-radius: 35px;
+}
+
+#employee-details {
+  position: absolute;
+  width: 175px;
+  height: 25px;
+  left: 191px;
+  top: 148px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+#work-details {
+  position: absolute;
+  width: 129px;
+  height: 50px;
+  left: 709px;
+  top: 148px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+#your-alias {
+  position: absolute;
+  width: 454px;
+  height: 44px;
+  left: 101px;
+  top: 224px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#employee-alias {
+  position: absolute;
+  width: 136px;
+  height: 44px;
+  left: 101px;
+  top: 296px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#employee-wallet-address {
+  position: absolute;
+  width: 223px;
+  height: 44px;
+  left: 101px;
+  top: 373px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#work-desc {
+  position: absolute;
+  width: 341px;
+  height: 44px;
+  left: 623px;
+  top: 198px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#milestone-count {
+  position: absolute;
+  width: 147px;
+  height: 44px;
+  left: 626px;
+  top: 300px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#total-ether {
+  position: absolute;
+  width: 179px;
+  height: 44px;
+  left: 632px;
+  top: 406px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+#your-alias-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 320px;
+  height: 38px;
+  left: 92px;
+  top: 250px;
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+#employee-alias-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 320px;
+  height: 38px;
+  left: 92px;
+  top: 322px;
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+#employee-wallet-address-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 357px;
+  height: 38px;
+  left: 92px;
+  top: 405px;
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+#work-desc {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 348px;
+  height: 56px;
+  left: 623px;
+  top: 229px;
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+#milestone-dragger {
+  position: absolute;
+  width: 284px;
+  height: 15px;
+  left: 632px;
+  top: 336px;
+
+  background: #000000;
+  border-radius: 30px;
+}
+
+#total-ether-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 357px;
+  height: 38px;
+  left: 623px;
+  top: 436px;
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+#separator {
+  position: absolute;
+  width: 19px;
+  height: 335px;
+  left: 543px;
+  top: 161px;
+
+  background: #202120;
+  border-radius: 30px;
+}
+
+#create-new-contract-btn {
+  position: absolute;
+  width: 408px;
+  height: 48px;
+  left: 349px;
+  top: 526px;
+
+  background: #000000;
+  border-radius: 20px;
+}
+
+#create-new-contract-text {
+  position: absolute;
+  width: 265px;
+  height: 23px;
+  left: 426px;
+  top: 538px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
