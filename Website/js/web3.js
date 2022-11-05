@@ -24,7 +24,7 @@ async function CreateWorkContract(){
     eAlias = document.getElementById('eAlias').innerText;
     Addy = document.getElementById('AddyInput').innerText;
     Desc = document.getElementById('DescInput').innerText;
-    Ether = (document.getElementById('EtherInput').value) * ;
+    Ether = ((document.getElementById('EtherInput').value) * 1000000000000000000).to;
 
     if(Addy.length =! 42){
         alert("Employee Address is invalid")
