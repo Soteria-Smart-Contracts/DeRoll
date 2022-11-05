@@ -24,7 +24,7 @@ contract DeRoll{
     mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
 
 
-    function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string )
+    function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string WorkDescription )
 
 
 
