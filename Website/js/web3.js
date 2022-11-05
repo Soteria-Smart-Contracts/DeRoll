@@ -13,7 +13,7 @@ async function loginWithEth(){
         account = accountarray[0];
         document.getElementById('walletbuton').innerText = "Wallet Connected";
         document.getElementById('walletbuton').style.backgroundColor = '#4353ff';
-        document.getElementById('walletbuton').style.color = '#4353ff';
+        document.getElementById('walletbuton').style.color = 'white';
     } else { 
         alert("No ETHER Wallet available")
     }
