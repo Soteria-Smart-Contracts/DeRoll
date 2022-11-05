@@ -17,6 +17,7 @@ body{
 .form-control{
   font-size: medium;
   font-weight: bold;
+  border-radius: 20px;
   padding: 5px;
 }
 
@@ -58,7 +59,6 @@ body{
   font-weight: bold;
   padding: 5px;
   padding-left: 8px;
-  border-radius: 20px;
   padding-right: 8px;
 
   border-radius: 25px;
