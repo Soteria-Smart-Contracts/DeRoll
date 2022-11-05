@@ -10,6 +10,6 @@ contract DeRoll{
         string ProprietorAlias;
         address Employee;
         string EmployeeAlias;
-        
+        string WorkDescription;
     }
 }
