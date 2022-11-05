@@ -9,5 +9,6 @@ contract DeRoll{
         address Proprietor;
         address Employee;
         string EmployeeAlias;
+        
     }
 }
