@@ -1,2 +1,2 @@
 
-window.abi 
+window.abi = 
