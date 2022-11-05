@@ -17,5 +17,5 @@ contract DeRoll{
     }
 
 
-    mapping(address =)
+    mapping(address =>)
 }
