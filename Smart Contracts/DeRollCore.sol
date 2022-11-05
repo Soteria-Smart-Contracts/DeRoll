@@ -26,7 +26,7 @@ contract DeRoll{
         uint256 NewPropriID = ProprietorContracts[msg.sender].length + 1;
         uint256 NewEmployAwID = EmployeeAwaiting[Employee].length + 1;
 
-        WorkContract NewWorkContract
+        WorkContract NewWorkContract = WorkContract()
 
 
 
