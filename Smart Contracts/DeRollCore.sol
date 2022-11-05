@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 
 contract DeRoll{
     //Variable and Struct Declarations
-    uint256 public IDCounter;
+    uint256 public IDCounter; 
 
     struct WorkContract{
         uint256 ID;
