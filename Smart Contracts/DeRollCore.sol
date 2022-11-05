@@ -25,7 +25,8 @@ contract DeRoll{
 
         WorkContract memory NewWorkContract = WorkContract(msg.sender, pAlias, Employee, eAlias, WorkDescription, false, false, msg.value);
 
-        ProprietorContracts[]
+        ProprietorContracts[msg.sender].push(NewWorkContract)
+
 
 
 
