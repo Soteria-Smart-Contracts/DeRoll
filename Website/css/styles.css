@@ -7,12 +7,12 @@
 }
 
 @font-face {
-  font-family: 'GoodFont';
+  font-family: 'Prototype';
   src: url('Prototype.ttf');
 }
 
 h1{
-  font-family: GoodFont;
+  font-family: Prototype;
 }
 
 body{
