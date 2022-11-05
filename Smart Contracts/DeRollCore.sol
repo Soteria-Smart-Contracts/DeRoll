@@ -26,6 +26,7 @@ contract DeRoll{
 
     function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
+        
 
     }
 
