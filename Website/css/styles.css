@@ -19,6 +19,7 @@ body{
   width: 35vw;
   background-color: #4353FF;
   padding: 20px;
+  min-height: 40vh;
 }
 
 #logo-image {
