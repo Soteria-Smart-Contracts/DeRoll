@@ -24,7 +24,7 @@ contract DeRoll{
         require(msg.value >= 1000000000000000);
         
         uint256 NewPropriID = ProprietorContracts[msg.sender].length + 1;
-        uint256 NewEmployAwID = EmployeeAwaiting.;
+        uint256 NewEmployAwID = EmployeeAwaiting[Employee].lenght ;
 
 
 
