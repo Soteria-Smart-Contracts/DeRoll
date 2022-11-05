@@ -12,7 +12,8 @@ body{
 
 .container{
   display: inline-flex;
-  align-items: ;
+  align-items: center;
+  text-align: center;
 }
 
 .form-control{
