@@ -40,7 +40,7 @@ contract DeRoll{
     }
 
     //Employee functions
-    function AcceptWorkContract(uint256 Identifier)
+    function AcceptWorkContract(uint256 Identifier) public 
 
 
 
