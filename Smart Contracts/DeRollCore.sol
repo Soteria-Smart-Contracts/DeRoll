@@ -19,9 +19,9 @@ contract DeRoll{
     }
 
     //Mapping Declarations
-    mapping(address => WorkContract[]) ProprietorContracts;
-    mapping(address => WorkContract[]) EmployeeAwaiting; 
-    mapping(address => WorkContract[]) EmployeeActive;
+    mapping(address => WorkContract[]) public ProprietorContracts;
+    mapping(address => WorkContract[]) public EmployeeAwaiting; 
+    mapping(address => WorkContract[]) public EmployeeActive;
 
     //Event Declarations
     event NewWorkContractCreated(address Proprietor, address Employee, uint256 Value);
