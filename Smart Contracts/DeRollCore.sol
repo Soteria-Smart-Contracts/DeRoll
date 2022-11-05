@@ -37,7 +37,7 @@ contract DeRoll{
     }
 
     //Employee functions
-    function 
+    function AcceptWorkContract()
 
 
 
