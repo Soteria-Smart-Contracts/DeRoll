@@ -11,5 +11,6 @@ contract DeRoll{
         address Employee;
         string EmployeeAlias;
         string WorkDescription;
+        
     }
 }
