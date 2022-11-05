@@ -12,7 +12,7 @@ async function loginWithEth(){
         contract = await new window.web3.eth.Contract(ABI, contractAddress, window.web3);
         account = accountarray[0];
         document.getElementById('walletbuton').innerText = "Wallet Connected";
-        document.getElementById('walletbuton').style.color = '#4353ff';
+        document.getElementById('walletbuton').style.backgroundColor = '#4353ff';
     } else { 
         alert("No ETHER Wallet available")
     }
