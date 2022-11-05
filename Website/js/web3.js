@@ -21,5 +21,6 @@ async function loginWithEth(){
 
 async function CreateWorkContract(){
     eAlias = document.getElementById('walletbuton').innerText;
+    
 
 }
