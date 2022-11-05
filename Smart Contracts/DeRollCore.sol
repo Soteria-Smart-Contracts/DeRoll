@@ -24,7 +24,7 @@ contract DeRoll{
     mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
 
 
-    function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string WorkDescription, uint256 EtherPayment){
+    function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string WorkDescription, uint256 EtherPayment) public {
         require(EtherPayment >= 1000000000000000);
     }
 
