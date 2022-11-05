@@ -20,6 +20,8 @@ contract DeRoll{
     mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; 
     mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
 
+    
+
 
 
 
