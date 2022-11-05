@@ -18,9 +18,9 @@
 h2{
   font: inherit;
   font-family: 'Prototype';
-  font-size: 28px;
+  font-size: 30px;
   color: white;
-  -webkit-text-stroke: 4px navy;
+  -webkit-text-stroke: 1px black;
 }
 
 body{
