@@ -25,7 +25,7 @@ contract DeRoll{
 
 
     function CreateNewWorkContract(string pAlias, string eAlias, address Employee, string WorkDescription, uint256 EtherPayment){
-        
+        require(EtherPayment >= );
     }
 
 
