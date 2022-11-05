@@ -24,6 +24,6 @@ async function CreateWorkContract(){
     eAlias = document.getElementById('eAlias').innerText;
     Addy = document.getElementById('AddyInput').innerText;
     Desc = document.getElementById('DescInput').innerText;
-    Ether = 
+    Ether = document.getElementById('EthertoBePaid').innerText;
 
 }
