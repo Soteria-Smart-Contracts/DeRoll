@@ -22,7 +22,7 @@ body{
   min-height: 40vh;
   max-width: 35vw;
   align-items: center;
-  alig
+  text-align: center;
 }
 
 #logo-image {
