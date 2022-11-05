@@ -7,32 +7,32 @@
 }
 
 @font-face {
-  font-family: 'Prototype';
-  src: url('Prototype.ttf');
+  font-family: "Prototype";
+  src: url("Prototype.ttf");
 }
 
-.label{
+.label {
   color: white;
 }
 
-h2{
+h2 {
   font: inherit;
-  font-family: 'Prototype';
+  font-family: "Prototype";
   font-size: 30px;
   color: white;
 }
 
-body{
+body {
   background-color: #202120;
 }
 
-.container{
+.container {
   display: inline-flex;
   align-items: center;
   text-align: center;
 }
 
-.form-control{
+.form-control {
   font-size: medium;
   font-weight: bold;
   border-radius: 15px;
@@ -42,9 +42,9 @@ body{
   text-align: center;
 }
 
-.col-md{
+.col-md {
   margin-top: 12%;
-  background-color: #4353FF;
+  background-color: #4353ff;
   padding: 20px;
   min-height: 60vh;
   min-width: 30vw;
@@ -344,7 +344,7 @@ body{
   border-radius: 30px;
 }
 
-#create-new-contract-btn {
+.create-new-contract-btn {
   position: absolute;
   width: 408px;
   height: 48px;
