@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-  display: inline-flex;
+  display: flexbox;
   align-items: center;
   text-align: center;
 }
