@@ -17,6 +17,7 @@ body{
 .form-control{
   font-size: medium;
   font-weight: bold;
+  padding: 5px;
 }
 
 .col-md{
