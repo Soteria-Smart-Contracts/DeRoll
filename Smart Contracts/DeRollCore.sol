@@ -15,10 +15,10 @@ contract DeRoll{
         uint256 EtherPayment;
     }
 
-    mapping(address => uint256) LatestContractID;
+    mapping(address => uint256) ProprietorLatest;
     mapping(address => mapping(uint256 => WorkContract)) ProprietorContracts;
 
-    mapping(address => uint256) LatestContractID;
+    mapping(address => uint256) ;
     mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; 
     mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
 
