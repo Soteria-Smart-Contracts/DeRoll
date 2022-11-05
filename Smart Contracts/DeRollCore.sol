@@ -18,7 +18,7 @@ contract DeRoll{
 
 
     mapping(address => mapping(uint256 => WorkContract)) ProprietorContracts;
-    mapping(address => )
+    mapping(address => mapping(uint256 => WorkContract)) 
 
 
 
