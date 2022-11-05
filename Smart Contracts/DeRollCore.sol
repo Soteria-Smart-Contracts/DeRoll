@@ -21,7 +21,7 @@ contract DeRoll{
     mapping(address => WorkContract[]) EmployeeActive;
 
     //Event Declarations
-    event NewWorkContractCreated
+    event NewWorkContractCreated(address )
 
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address payable Employee, string memory WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
