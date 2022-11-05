@@ -5,7 +5,6 @@ const contractAddress = "0x2001D679210C0e4531f5C07155d8e3677Dd388ae";
 loginWithEth();
 
 async function loginWithEth(){
-    print("bin")
     if(window.ethereum){
         await ethereum.request({ method: 'eth_requestAccounts' });
         window.web3 = await new Web3(ethereum);
