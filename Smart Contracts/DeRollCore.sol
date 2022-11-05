@@ -24,7 +24,7 @@ contract DeRoll{
     event NewWorkContractCreated(address Proprietor, address Employee, uint256 Value);
 
 
-    //
+    //Proprietor Functions
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address payable Employee, string memory WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
 
@@ -36,6 +36,7 @@ contract DeRoll{
         emit NewWorkContractCreated(msg.sender, Employee, msg.value);
     }
 
+    //
     function 
 
 
