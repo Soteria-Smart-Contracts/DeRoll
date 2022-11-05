@@ -36,7 +36,7 @@ contract DeRoll{
         emit NewWorkContractCreated(msg.sender, Employee, msg.value);
     }
 
-    //
+    //Employee functions
     function 
 
 
