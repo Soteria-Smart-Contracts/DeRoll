@@ -23,6 +23,6 @@ async function CreateWorkContract(){
     pAlias = document.getElementById('pAlias').innerText;
     eAlias = document.getElementById('eAlias').innerText;
     Addy = document.getElementById('AddyInput').innerText;
-    Desc = document.getElementById('AddyInput').innerText;
+    Desc = document.getElementById('DescInput').innerText;
 
 }
