@@ -27,7 +27,7 @@ contract DeRoll{
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address Employee, string memory WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
         
-        uint256 NewPropriID = Pr
+        uint256 NewPropriID = ProprietorLatest[msg.sender]
 
 
     }
