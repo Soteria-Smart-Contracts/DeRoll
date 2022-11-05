@@ -18,7 +18,7 @@ contract DeRoll{
     mapping(address => uint256) ProprietorLatest;
     mapping(address => mapping(uint256 => WorkContract)) ProprietorContracts;
 
-    mapping(address => uint256) ;
+    mapping(address => uint256) EmployeeAwaitingLatest;
     mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; 
     mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
 
