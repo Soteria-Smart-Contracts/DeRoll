@@ -33,6 +33,8 @@ body{
 .proprietor-header {
 
   font-size: large;
+  padding: 5px;
+  padding-left: ;
 
   border-radius: 25px;
 }
