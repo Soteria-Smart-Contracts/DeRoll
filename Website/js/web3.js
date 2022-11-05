@@ -26,6 +26,8 @@ async function CreateWorkContract(){
     Desc = document.getElementById('DescInput').innerText;
     Ether = document.getElementById('EtherInput').value;
 
-    if(Addy.length =! 42)
+    if(Addy.length =! 42){
+        return()
+    }
 
 }
