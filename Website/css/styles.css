@@ -31,11 +31,7 @@ body{
 }
 
 .proprietor-header {
-  box-sizing: border-box;
 
-  position: absolute;
-  width: 194px;
-  height: 100px;
   left: 333px;
   top: 25px;
 
