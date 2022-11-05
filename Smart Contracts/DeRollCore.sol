@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 
 contract DeRoll{
-
+    //Variable and Struct Declarations
     struct WorkContract{
         address Proprietor;
         string ProprietorAlias;
@@ -15,6 +15,7 @@ contract DeRoll{
         uint256 EtherPayment;
     }
 
+    //Variable and Struct Declarations
     mapping(address => WorkContract[]) ProprietorContracts;
     mapping(address => WorkContract[]) EmployeeAwaiting; 
     mapping(address => WorkContract[]) EmployeeActive;
