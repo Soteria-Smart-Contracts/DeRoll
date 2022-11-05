@@ -15,10 +15,12 @@ contract DeRoll{
         uint256 EtherPayment;
     }
 
-    //Variable and Struct Declarations
+    //Mapping Declarations
     mapping(address => WorkContract[]) ProprietorContracts;
     mapping(address => WorkContract[]) EmployeeAwaiting; 
     mapping(address => WorkContract[]) EmployeeActive;
+
+    //
 
 
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address payable Employee, string memory WorkDescription) public payable {
