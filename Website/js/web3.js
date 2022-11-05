@@ -27,7 +27,7 @@ async function CreateWorkContract(){
     Ether = document.getElementById('EtherInput').value;
 
     if(Addy.length =! 42){
-        promt
+        
         return("Invalid Address")
     }
 
