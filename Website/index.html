@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script 
-    src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
-    integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+        integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
     <title>DeRoll</title>
 </head>
+
 <body style="background-color: rgb(228, 118, 243);">
     <div id="Header" class="d-flex justify-content-end">
-        <button onclick="DisplayProprietorPage()" className="proprietor-header">Proprietors</button>
+        <button onclick="DisplayProprietorPage()">
+            <div className="proprietor-header">
+                <p>Proprietors</p>
+            </div>
+        </button>
         <button onclick="DisplayEmployeePage()" style="margin-top: 10px; margin-right: 60px;">Employees</button>
         <button onclick="loginWithEth()" style="margin-top: 10px; margin-right: 5px;">Connect Wallet</button>
     </div>
@@ -24,19 +28,22 @@
             <h2 style="padding-top: 4%; padding-left: 6%">Create a new Work Contract</h1>
                 <div style="margin-left: 6%; margin-top: 3%;" class="form-group">
                     <a style="font-size: larger; font-weight: bold;" for="pAlias">Your Alias</a>
-                    <input style="margin-top: 0.75%;" class="form-control w-25" id="pAlias" aria-describedby="emailHelp" placeholder="Proprietor Alias">
-                    </div>
-                    <div style="margin-left: 6%; margin-top: 2%;" class="form-group">
-                        <a style="font-size: larger; font-weight: bold;" for="epAlias">Employee Alias</a>
-                        <input style="margin-top: 0.75%;" class="form-control w-25" id="eAlias" aria-describedby="emailHelp" placeholder="Employee Alias">
-                    </div>
-                    <div style="margin-left: 6%; margin-top: 2%;" class="form-group">
-                        <a style="font-size: larger; font-weight: bold;" for="AddyInput">Employee Address</a>
-                        <input style="margin-top: 0.75%;" class="form-control w-25" id="AddyInput" aria-describedby="emailHelp" placeholder="Employee Address">
+                    <input style="margin-top: 0.75%;" class="form-control w-25" id="pAlias" aria-describedby="emailHelp"
+                        placeholder="Proprietor Alias">
                 </div>
-            </div>
+                <div style="margin-left: 6%; margin-top: 2%;" class="form-group">
+                    <a style="font-size: larger; font-weight: bold;" for="epAlias">Employee Alias</a>
+                    <input style="margin-top: 0.75%;" class="form-control w-25" id="eAlias" aria-describedby="emailHelp"
+                        placeholder="Employee Alias">
+                </div>
+                <div style="margin-left: 6%; margin-top: 2%;" class="form-group">
+                    <a style="font-size: larger; font-weight: bold;" for="AddyInput">Employee Address</a>
+                    <input style="margin-top: 0.75%;" class="form-control w-25" id="AddyInput"
+                        aria-describedby="emailHelp" placeholder="Employee Address">
+                </div>
         </div>
-       
+    </div>
+
     </div>
 
     <!-- <div class="container" id="Employee">
@@ -57,9 +64,10 @@
             </div>
         </div>
     </div> -->
-    
-    </body>
-    <script src="js/abi.js"></script>
-    <script src="js/functionallity.js"></script>
-    <script src="js/web3.js"></script>
-</html> 
+
+</body>
+<script src="js/abi.js"></script>
+<script src="js/functionallity.js"></script>
+<script src="js/web3.js"></script>
+
+</html>
