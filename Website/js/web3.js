@@ -20,7 +20,7 @@ async function loginWithEth(){
 }
 
 async function CreateWorkContract(){
-    pAlias = document.getElementById('walletbuton').innerText;
-
+    pAlias = document.getElementById('pAlias').innerText;
+    eAlias = document.getElementById('pAlias').innerText;
 
 }
