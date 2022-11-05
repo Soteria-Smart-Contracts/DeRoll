@@ -31,7 +31,7 @@ contract DeRoll{
         ProprietorContracts[msg.sender].push(NewWorkContract);
         EmployeeAwaiting[msg.sender].push(NewWorkContract);
 
-        emit()
+        emit NewWorkContractCreated(msg.sender, )
     }
 
 
