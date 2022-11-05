@@ -16,8 +16,8 @@ contract DeRoll{
     }
 
     mapping(address => WorkContract[]) ProprietorContracts;
-    mapping(address => mapping(uint256 => WorkContract)) EmployeeAwaiting; 
-    mapping(address => mapping(uint256 => WorkContract)) EmployeeActive;
+    mapping(address => WorkContract[]) EmployeeAwaiting; 
+    mapping(address => WorkContract[]) EmployeeActive;
 
 
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address Employee, string memory WorkDescription) public payable {
