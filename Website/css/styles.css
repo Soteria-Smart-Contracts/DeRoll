@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-  flex
+  display: inline-block;
 }
 
 #logo-image {
