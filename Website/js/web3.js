@@ -19,4 +19,7 @@ async function loginWithEth(){
     }
 }
 
-function CreateWorkContract()
+async function CreateWorkContract(){
+    
+
+}
