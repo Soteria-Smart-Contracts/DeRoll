@@ -6,6 +6,11 @@
   height: 150px;
 }
 
+@font-face {
+  font-family: 'GoodFont';
+  src: url('/font/oswald.regular.ttf');
+}
+
 body{
   background-color: #202120;
 }
