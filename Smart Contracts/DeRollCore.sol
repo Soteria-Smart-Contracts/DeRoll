@@ -23,6 +23,8 @@ contract DeRoll{
     //Event Declarations
     event NewWorkContractCreated(address Proprietor, address Employee, uint256 Value);
 
+
+    //
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address payable Employee, string memory WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
 
