@@ -20,7 +20,7 @@ h2{
   font-family: 'Prototype';
   font-size: 28px;
   color: white;
-  
+  -webkit-text-stroke: #000000;
 }
 
 body{
