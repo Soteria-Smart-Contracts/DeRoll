@@ -20,6 +20,6 @@ async function loginWithEth(){
 }
 
 async function CreateWorkContract(){
-    eAlais = 
+    eAlais = document.getElementById('walletbuton').innerText;
 
 }
