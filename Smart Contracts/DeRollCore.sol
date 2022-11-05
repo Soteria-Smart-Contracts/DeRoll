@@ -23,7 +23,7 @@ contract DeRoll{
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address Employee, string memory WorkDescription) public payable {
         require(msg.value >= 1000000000000000);
         
-        uint256 NewPropriID = ;
+        uint256 NewPropriID = ProprietorContracts.length + 1;
         uint256 NewEmployAwID = EmployeeAwaiting;
 
 
