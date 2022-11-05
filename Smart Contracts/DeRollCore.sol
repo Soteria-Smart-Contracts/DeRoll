@@ -11,7 +11,7 @@ contract DeRoll{
         address Employee;
         string EmployeeAlias;
         string WorkDescription;
-        bool Wo
+        bool WorkCompleteRequest;
         bool WorkComplete;
         uint256 EtherPayment;
     }
