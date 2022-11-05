@@ -8,8 +8,10 @@
 
 @font-face {
   font-family: 'GoodFont';
-  src: url('/font/oswald.regular.ttf');
+  src: url('Prototype.ttf');
 }
+
+
 
 body{
   background-color: #202120;
