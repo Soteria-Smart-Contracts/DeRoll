@@ -4,8 +4,8 @@ pragma solidity ^0.8.17;
 
 contract DeRoll{
     //Variable and Struct Declarations
+    uint256 
 
-    
     struct WorkContract{
         uint256 ID;
         address Proprietor;
