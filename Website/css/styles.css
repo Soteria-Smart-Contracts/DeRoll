@@ -86,7 +86,8 @@ body {
 }
 
 .proprietor-header.confirm{
-  color
+  color: white;
+  background-color: black;
 }
 
 #customer-header {
