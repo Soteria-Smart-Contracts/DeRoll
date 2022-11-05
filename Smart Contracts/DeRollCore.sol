@@ -10,7 +10,7 @@ contract DeRoll{
         uint256 ID;
         address Proprietor;
         string ProprietorAlias;
-        address Employee;
+        address payable Employee;
         string EmployeeAlias;
         string WorkDescription;
         bool WorkCompleteRequest;
