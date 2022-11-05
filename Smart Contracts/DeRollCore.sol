@@ -20,7 +20,7 @@ contract DeRoll{
     mapping(address => WorkContract[]) EmployeeAwaiting; 
     mapping(address => WorkContract[]) EmployeeActive;
 
-    //
+    //Event Declarations
 
 
     function CreateNewWorkContract(string memory pAlias, string memory eAlias, address payable Employee, string memory WorkDescription) public payable {
