@@ -22,6 +22,7 @@ async function loginWithEth(){
         document.getElementById('walletbuton').innerText = "Wallet Connected";
         document.getElementById('walletbuton').style.backgroundColor = '#4353ff';
         document.getElementById('walletbuton').style.color = 'white';
+        UpdateProprietorContracts();
     } else { 
         alert("No ETHER Wallet available")
     }
@@ -47,7 +48,7 @@ async function CreateWorkContract(){
 async function UpdateProprietorContracts(){
     PropIDs = await GetProprietorIDs();
     let Contracts = [];
-    document.getElementById("pContracts").innerHTML = ""
+    document.getElementById("pContracts").innerHTML = "";
 
     index = 0;
     while(index < PropIDs.length){
