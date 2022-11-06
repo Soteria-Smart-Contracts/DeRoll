@@ -1,5 +1,6 @@
 let account;
 const ABI = window.abi;
+let contract;
 const contractAddress = "0x2001D679210C0e4531f5C07155d8e3677Dd388ae";
 
 loginWithEth();
@@ -41,7 +42,7 @@ async function CreateWorkContract(){
         return("Invalid Address")
     }
 
-    
+
 
 
 }
