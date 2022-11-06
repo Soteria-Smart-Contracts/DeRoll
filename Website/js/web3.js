@@ -57,5 +57,5 @@ async function GetProprietorIDs(){
 }
 
 async function GetContractDetails(){
-    contract.methods.WorkContracts
+    contract.methods.WorkContracts(3)
 }
