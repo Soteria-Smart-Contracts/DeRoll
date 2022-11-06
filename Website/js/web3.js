@@ -52,5 +52,5 @@ async function GetProprietorIDs(){
             PIDs.push(await contract.methods.ProprietorContracts(account).call());
          } catch(err){}
     }
-    console.log(PID)
+    console.log(PIDs)
 }
