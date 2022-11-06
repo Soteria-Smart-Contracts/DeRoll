@@ -24,7 +24,7 @@ async function CreateWorkContract(){
     eAlias = document.getElementById('eAlias').innerText;
     Addy = document.getElementById('AddyInput').innerText;
     Desc = document.getElementById('DescInput').innerText;
-    EtherInput = bigint(document.getElementById('EtherInput').value)
+    EtherInput = BigInt(document.getElementById('EtherInput').value)
     console.log(Ether);
     return
 
