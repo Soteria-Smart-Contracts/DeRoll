@@ -54,6 +54,16 @@ async function UpdateProprietorContracts(){
         Contracts.push(await GetContractDetails(PIDs[index]));
         index++
     }
+
+    newcard = document.createElement("div");
+    newcard.className = "NFTcard";
+    newcard.id = indexid;
+    let img = '<img class="nftimage" src="src/images/collection/' + indexid + '.png"></img>"';
+    let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x2001d679210c0e4531f5c07155d8e3677dd388ae/instance/' + indexid +  '/token-transfers';
+    newcard.innerHTML = img + '<a class="nftID head">MoonBird ID:</a>' + '<br>' + '<a class="nftID">' + indexid + '</a>' + '<br>' + '<a class="nftID head">MoonBird Rank:</a>' + '<br>' + '<a class="nftID">' + index + '</a>' + '<br>' + '<a class="nftID scout" href="' + BlockscoutLink + '" target="_blank">View On Blockscout</a>';
+    document.getElementById("CollectionContainer").appendChild(newcard);
+
+
     console.log(Contracts);
 }
 
