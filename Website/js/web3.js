@@ -42,5 +42,5 @@ async function CreateWorkContract(){
         return("Invalid Address")
     }
 
-    contract.methods.
+    contract.methods.CreateNewWorkContract
 }
