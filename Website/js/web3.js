@@ -73,6 +73,7 @@ async function GetProprietorIDs(){
          index++;
     }
     console.log(PIDs)
+    return(PIDs)
 }
 
 async function GetContractDetails(ID){
