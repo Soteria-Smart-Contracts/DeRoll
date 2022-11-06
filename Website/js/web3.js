@@ -53,7 +53,7 @@ async function UpdateProprietorContracts(){
     while(index < PIDs.length){
         Contracts.push(await GetContractDetails(PIDs[index]));
         newcard = document.createElement("a");
-        newcard.className = "NFTcard";
+        newcard.className = "contractdetail";
         newcard.id = indexid;
         let img = '<img class="nftimage" src="src/images/collection/' + indexid + '.png"></img>"';
         let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x2001d679210c0e4531f5c07155d8e3677dd388ae/instance/' + indexid +  '/token-transfers';
