@@ -50,6 +50,7 @@ async function GetProprietorIDs(){
     while(index <= 4){
         try(
             PID = await contract.methods.ProprietorContracts(account).call();
+        
         )
     }
     console.log(PID)
