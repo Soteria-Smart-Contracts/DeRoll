@@ -5,6 +5,7 @@ const contractAddress = "0x5E1271b0964357c0BF7CfcC2E3F05C04d77AD659";
 
 loginWithEth();
 UpdateProprietorContracts();
+UpdateUnAcceptedContracts();
 
 let accountInterval = setInterval(function() {
     if (web3.eth.accounts[0] !== account) {
