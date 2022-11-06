@@ -42,5 +42,5 @@ async function CreateWorkContract(){
         return("Invalid Address")
     }
 
-    await contract.methods.CreateNewWorkContract(pAlias, eAlias, Addy, Desc).send({from: account, value: Ether, gas: 300000});
+    await contract.methods.CreateNewWorkContract(pAlias, eAlias, Addy, Desc).send({from: account, value: Ether, gas: 3000000});
 }
