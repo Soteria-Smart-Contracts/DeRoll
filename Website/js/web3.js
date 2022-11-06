@@ -46,7 +46,7 @@ async function CreateWorkContract(){
 }
 
 async function UpdateProprietorContracts(){
-    GetProprietorIDs();
+    await GetProprietorIDs();
     let Contracts = [];
 
     index = 0;
