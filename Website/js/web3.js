@@ -4,7 +4,6 @@ let contract;
 const contractAddress = "0x5E1271b0964357c0BF7CfcC2E3F05C04d77AD659";
 
 loginWithEth();
-UpdateProprietorContracts();
 
 let accountInterval = setInterval(function() {
     if (web3.eth.accounts[0] !== account) {
@@ -80,6 +79,7 @@ async function GetEmployeeUnacceptedIDs(){
     return(PIDs)
 }
 
+
 async function GetProprietorIDs(){
     index = 0;
     let PIDs = [];
@@ -97,3 +97,5 @@ async function GetContractDetails(ID){
     Contract = await contract.methods.WorkContracts(ID).call();
     return Contract;
 }
+
+UpdateProprietorContracts();
