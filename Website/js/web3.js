@@ -49,7 +49,9 @@ async function UpdateProprietorContracts(){
     GetProprietorIDs();
 
     index = 0;
-    while(index < PIDs)
+    while(index < PIDs.length){
+        
+    }
 }
 
 async function GetProprietorIDs(){
