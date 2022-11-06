@@ -55,7 +55,7 @@ async function UpdateProprietorContracts(){
         newcard = document.createElement("a");
         newcard.className = "contractdetail";
         newcard.id = index;
-        newcard.innerHTML = img + '<a class="nftID head">MoonBird ID:</a>' + '<br>' + '<a class="nftID">' + indexid + '</a>' + '<br>' + '<a class="nftID head">MoonBird Rank:</a>' + '<br>' + '<a class="nftID">' + index + '</a>' + '<br>' + '<a class="nftID scout" href="' + BlockscoutLink + '" target="_blank">View On Blockscout</a>';
+        newcard.innerHTML = 
         document.getElementById("CollectionContainer").appendChild(newcard);
         index++
     }
