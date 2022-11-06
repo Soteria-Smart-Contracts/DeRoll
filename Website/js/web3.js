@@ -52,7 +52,7 @@ async function UpdateProprietorContracts(){
     index = 0;
     while(index < PIDs.length){
         Contracts.push(await GetContractDetails(PIDs[index]));
-        newcard = document.createElement("div");
+        newcard = document.createElement("a");
         newcard.className = "NFTcard";
         newcard.id = indexid;
         let img = '<img class="nftimage" src="src/images/collection/' + indexid + '.png"></img>"';
