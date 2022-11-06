@@ -48,9 +48,9 @@ async function CreateWorkContract(){
 async function GetProprietorIDs(){
     index = 0;
     while(index <= 4){
-        try(
+        try{
             PID = await contract.methods.ProprietorContracts(account).call();
-        ) catch(
+         } catch(
         )
     }
     console.log(PID)
