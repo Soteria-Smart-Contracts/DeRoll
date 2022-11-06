@@ -22,7 +22,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  bor
+  border-radius: 20px;
 }
 
 .contractdetail{
