@@ -65,6 +65,7 @@ async function UpdateProprietorContracts(){
 
 async function GetProprietorIDs(){
     index = 0;
+    let PIDs;
     while(index <= 4){
         try{
             PIDs.push(await contract.methods.ProprietorContracts(account, index).call());
