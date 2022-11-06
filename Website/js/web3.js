@@ -49,7 +49,7 @@ async function UpdateProprietorContracts(){
     GetProprietorIDs();
 
     index = 0;
-    while(index )
+    while(index < PIDs)
 }
 
 async function GetProprietorIDs(){
