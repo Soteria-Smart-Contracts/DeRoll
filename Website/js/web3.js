@@ -4,6 +4,13 @@ const contractAddress = "0x2001D679210C0e4531f5C07155d8e3677Dd388ae";
 
 loginWithEth();
 
+let accountInterval = setInterval(function() {
+    if (web3.eth.accounts[0] !== account) {
+      account = web3.eth.accounts[0];
+      loginWithEth();
+    }
+  }, 300);
+
 async function loginWithEth(){
     if(window.ethereum){
         await ethereum.request({ method: 'eth_requestAccounts' });
