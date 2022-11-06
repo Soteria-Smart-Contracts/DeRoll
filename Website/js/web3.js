@@ -46,6 +46,8 @@ async function CreateWorkContract(){
 }
 
 async function UpdateProprietorContracts(){
+    GetProprietorIDs();
+
     
 }
 
