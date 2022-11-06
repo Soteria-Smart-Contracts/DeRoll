@@ -55,7 +55,7 @@ async function UpdateProprietorContracts(){
         newcard = document.createElement("a");
         newcard.className = "contractdetail";
         newcard.id = index;
-        newcard.innerHTML = '<div id="pContracts" class="ContractBox"> <a class="contractdetail">Employee Alias: <e>' test</e></a><a class="contractdetail">Proprietor Alias:</a><a class="contractdetail">Work Description:</a><a class="contractdetail">Ether to be paid:</a></div>'
+        newcard.innerHTML = '<div id="pContracts" class="ContractBox"> <a class="contractdetail">Employee Alias: <e>' + Contracts</e></a><a class="contractdetail">Proprietor Alias:</a><a class="contractdetail">Work Description:</a><a class="contractdetail">Ether to be paid:</a></div>'
         document.getElementById("CollectionContainer").appendChild(newcard);
         index++
     }
