@@ -68,7 +68,7 @@ async function UpdateProprietorContracts(){
     console.log(Contracts);
 }
 
-async function UpdateProprietorContracts(){
+async function UpdateUnAcceptedContracts(){
     await loginWithEth();
     PropIDs = await GetProprietorIDs();
     let Contracts = [];
