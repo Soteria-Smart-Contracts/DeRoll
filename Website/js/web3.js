@@ -45,6 +45,7 @@ async function CreateWorkContract(){
 }
 
 async function UpdateProprietorContracts(){
+    await
     PropIDs = await GetProprietorIDs();
     let Contracts = [];
     document.getElementById("pContracts").innerHTML = "";
