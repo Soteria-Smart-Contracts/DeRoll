@@ -1,7 +1,7 @@
 let account;
 const ABI = window.abi;
 let contract;
-const contractAddress = "0xDD46D54a2aA24311350D1027D5958F83e06d413F";
+const contractAddress = "0x5E1271b0964357c0BF7CfcC2E3F05C04d77AD659";
 
 loginWithEth();
 
