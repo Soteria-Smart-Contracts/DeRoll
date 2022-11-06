@@ -47,7 +47,7 @@ async function CreateWorkContract(){
 async function UpdateProprietorContracts(){
     PropIDs = await GetProprietorIDs();
     let Contracts = [];
-    document.
+    document.ge
 
     index = 0;
     while(index < PropIDs.length){
