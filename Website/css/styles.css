@@ -20,11 +20,11 @@
   color: white;
   background-color: #202120;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contractdetail{
-  display: flex;
-  flex-direction: column;
   margin: 15px;
 }
 
