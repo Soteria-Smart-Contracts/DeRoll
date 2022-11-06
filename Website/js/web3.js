@@ -72,7 +72,7 @@ async function UpdateUnAcceptedContracts(){
     await loginWithEth();
     PropIDs = await GetEmployeeUnacceptedIDs();
     let Contracts = [];
-    document.getElementById("pContracts").innerHTML = "";
+    document.getElementById("euContracts").innerHTML = "";
 
     index = 0;
     while(index < PropIDs.length){
