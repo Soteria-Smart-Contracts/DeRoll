@@ -51,6 +51,7 @@ async function UpdateProprietorContracts(){
 
     index = 0;
     while(index < PIDs.length){
+        current = 
         Contracts.push(await GetContractDetails(PIDs[index]));
         newcard = document.createElement("a");
         newcard.className = "contractdetail";
