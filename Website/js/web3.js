@@ -42,5 +42,5 @@ async function CreateWorkContract(){
         return("Invalid Address")
     }
 
-    await contract.methods.CreateNewWorkContract(pAlias, eAlias, Addy, Desc).send({})
+    await contract.methods.CreateNewWorkContract(pAlias, eAlias, Addy, Desc).send({{from: account, value: 0, gas: 300000}})
 }
