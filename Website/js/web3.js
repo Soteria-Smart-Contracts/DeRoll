@@ -55,3 +55,5 @@ async function GetProprietorIDs(){
     }
     console.log(PIDs)
 }
+
+async function GetDetails
