@@ -70,7 +70,7 @@ async function GetEmployeeUnacceptedIDs(){
     let PIDs = [];
     while(index <= 4){
         try{
-            PIDs.push(await contract.methods.ProprietorContracts(account, index).call());
+            PIDs.push(await contract.methods.EmployeeAwaiting(account, index).call());
          } catch(err){}
          index++;
     }
