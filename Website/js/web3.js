@@ -65,7 +65,7 @@ async function UpdateProprietorContracts(){
     console.log(Contracts);
 }
 
-async function GetProprietorIDs(){
+async function GetEmployeeUnacceptedIDs(){
     index = 0;
     let PIDs = [];
     while(index <= 4){
