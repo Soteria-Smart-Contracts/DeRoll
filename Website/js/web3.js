@@ -45,4 +45,6 @@ async function CreateWorkContract(){
     await contract.methods.CreateNewWorkContract(pAlias, eAlias, Addy, Desc).send({from: account, value: Ether, gas: 3000000});
 }
 
-async function GetPropIDs
+async function GetProprietorIDs(){
+
+}
