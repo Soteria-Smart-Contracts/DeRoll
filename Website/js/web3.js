@@ -53,6 +53,7 @@ async function UpdateProprietorContracts(){
     while(index < PIDs.length){
         Contracts.push(await GetContractDetails(PIDs[index]));
     }
+    console.log(Contracts)
 }
 
 async function GetProprietorIDs(){
