@@ -42,5 +42,5 @@ async function CreateWorkContract(){
         return("Invalid Address")
     }
 
-    await contract.methods.CreateNewWorkContract(pAlias, )
+    await contract.methods.CreateNewWorkContract(pAlias, eAlias, Emplo)
 }
