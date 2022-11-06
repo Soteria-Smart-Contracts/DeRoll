@@ -70,7 +70,7 @@ async function UpdateProprietorContracts(){
 
 async function UpdateUnAcceptedContracts(){
     await loginWithEth();
-    PropIDs = await GetProprietorIDs();
+    PropIDs = await GetEmployeeUnacceptedIDs();
     let Contracts = [];
     document.getElementById("pContracts").innerHTML = "";
 
