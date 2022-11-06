@@ -27,10 +27,10 @@ async function loginWithEth(){
 }
 
 async function CreateWorkContract(){
-    pAlias = document.getElementById('pAlias').innerText;
-    eAlias = document.getElementById('eAlias').innerText;
-    Addy = document.getElementById('AddyInput').innerText;
-    Desc = document.getElementById('DescInput').innerText;
+    pAlias = document.getElementById('pAlias').value;
+    eAlias = document.getElementById('eAlias').value;
+    Addy = document.getElementById('AddyInput').value;
+    Desc = document.getElementById('DescInput').value;
     EtherInput = BigInt(document.getElementById('EtherInput').value * 1000000000);
 
     Ether = BigInt(EtherInput * BigInt(1000000000)).toString();
