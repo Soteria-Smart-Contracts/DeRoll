@@ -1,7 +1,6 @@
 let account;
 const ABI = window.abi;
 let contract;
-let PIDs = [];
 const contractAddress = "0x5E1271b0964357c0BF7CfcC2E3F05C04d77AD659";
 
 loginWithEth();
