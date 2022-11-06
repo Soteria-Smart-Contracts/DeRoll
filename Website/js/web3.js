@@ -14,6 +14,7 @@ async function loginWithEth(){
         document.getElementById('walletbuton').innerText = "Wallet Connected";
         document.getElementById('walletbuton').style.backgroundColor = '#4353ff';
         document.getElementById('walletbuton').style.color = 'white';
+        console.log("hi");
     } else { 
         alert("No ETHER Wallet available")
     }
