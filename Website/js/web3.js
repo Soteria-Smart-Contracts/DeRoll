@@ -75,7 +75,7 @@ async function GetProprietorIDs(){
     console.log(PIDs)
 }
 
-async function GetContractDetails(){
-    Contract = await contract.methods.WorkContracts(3).call();
+async function GetContractDetails(ID){
+    Contract = await contract.methods.WorkContracts(ID).call();
     return Contract;
 }
