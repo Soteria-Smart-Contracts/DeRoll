@@ -51,7 +51,7 @@ async function UpdateProprietorContracts(){
 
     index = 0;
     while(index < PIDs.length){
-        GetCo
+        GetContracts
     }
 }
 
@@ -68,5 +68,5 @@ async function GetProprietorIDs(){
 
 async function GetContractDetails(){
     Contract = await contract.methods.WorkContracts(3).call();
-    re
+    return Contract;
 }
