@@ -78,6 +78,19 @@ async function GetProprietorIDs(){
     return(PIDs)
 }
 
+async function GetProprietorIDs(){
+    index = 0;
+    let PIDs = [];
+    while(index <= 4){
+        try{
+            PIDs.push(await contract.methods.ProprietorContracts(account, index).call());
+         } catch(err){}
+         index++;
+    }
+    console.log(PIDs)
+    return(PIDs)
+}
+
 async function GetContractDetails(ID){
     Contract = await contract.methods.WorkContracts(ID).call();
     return Contract;
