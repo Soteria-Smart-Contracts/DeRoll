@@ -35,8 +35,7 @@ async function CreateWorkContract(){
     EtherInput = BigInt(document.getElementById('EtherInput').value * 1000000000);
 
     Ether = BigInt(EtherInput * BigInt(1000000000)).toString();
-    console.log(Addy)
-
+    
     if(Addy.length != 42){
         alert("Employee Address is invalid")
         return("Invalid Address")
