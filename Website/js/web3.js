@@ -48,8 +48,8 @@ async function CreateWorkContract(){
 async function UpdateProprietorContracts(){
     GetProprietorIDs();
 
-    index
-    while
+    index = 0;
+    while(index )
 }
 
 async function GetProprietorIDs(){
