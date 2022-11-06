@@ -51,7 +51,7 @@ async function UpdateProprietorContracts(){
 
     index = 0;
     while(index < PIDs.length){
-        GetContractDetails(PIDs[index])
+        Contracts.push(GetContractDetails(PIDs[index]))
     }
 }
 
