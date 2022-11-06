@@ -51,6 +51,7 @@ async function GetProprietorIDs(){
         try{
             PIDs.push(await contract.methods.ProprietorContracts(account, index).call());
          } catch(err){}
+         index++;
     }
     console.log(PIDs)
 }
