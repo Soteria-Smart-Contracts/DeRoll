@@ -49,7 +49,7 @@ async function GetProprietorIDs(){
     index = 0;
     while(index <= 4){
         try{
-            PID = await contract.methods.ProprietorContracts(account).call();
+            (await contract.methods.ProprietorContracts(account).call());
          } 
          
     }
