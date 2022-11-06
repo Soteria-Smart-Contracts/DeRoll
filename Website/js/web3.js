@@ -47,11 +47,11 @@ async function CreateWorkContract(){
 
 async function UpdateProprietorContracts(){
     GetProprietorIDs();
-    let 
+    let Contracts = [];
 
     index = 0;
     while(index < PIDs.length){
-
+        
     }
 }
 
