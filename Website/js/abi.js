@@ -209,11 +209,6 @@ window.abi = [
 				"name": "",
 				"type": "address"
 			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
 		],
 		"name": "ProprietorContracts",
 		"outputs": [
