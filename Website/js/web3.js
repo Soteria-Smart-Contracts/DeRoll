@@ -56,4 +56,4 @@ async function GetProprietorIDs(){
     console.log(PIDs)
 }
 
-async function GetDetails
+async function GetContractDetails
