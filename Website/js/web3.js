@@ -47,5 +47,5 @@ async function CreateWorkContract(){
 
 async function GetProprietorIDs(){
     PID = await contract.methods.ProprietorContracts(account).call();
-    console.log()
+    console.log(PID)
 }
