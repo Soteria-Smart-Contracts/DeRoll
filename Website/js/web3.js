@@ -1,7 +1,7 @@
 let account;
 const ABI = window.abi;
 let contract;
-const contractAddress = "0x5E1271b0964357c0BF7CfcC2E3F05C04d77AD659";
+const contractAddress = "0x68b99894178fc5842ef973b0cd13120dd23720b1";
 
 loginWithEth();
 UpdateProprietorContracts();
