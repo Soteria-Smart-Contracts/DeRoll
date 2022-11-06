@@ -49,7 +49,7 @@ async function UpdateProprietorContracts(){
     let Contracts = [];
 
     index = 0;
-    while(index < PIDs.length){
+    while(index < PropIDs.length){
         current = await GetContractDetails(PropIDs[index])
         Contracts.push(current);
         newcard = document.createElement("a");
